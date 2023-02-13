@@ -47,7 +47,9 @@ public class Main {
         byte secondGrade = 27;
         byte thirdGrade = 30;
         short totalSheets = 480;
+        System.out.println("Всего " + totalSheets + " листов");
         int totalStudents = firstGrade + secondGrade + thirdGrade;
+        System.out.println("Всего учеников " + totalSheets);
         int toEachStudent = totalSheets / totalStudents;
         System.out.println("На каждого ученика расчитано " + toEachStudent + " листов бумаги");
 
